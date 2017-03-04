@@ -1,0 +1,84 @@
+<button id = "view wineries">View wineries</button>
+<button id = "view wine bottles">View wine bottles</button>
+<button id = "view regions_varieties">View varieties from each region</button>
+
+<fieldset>Delete wine bottle
+    <form>
+        <label for="wine_delete">Wine name:</label>
+        <input type="text" name="wine_delete" id="wine_delete">
+        <input type="submit" id ="delete">
+    </form>
+</fieldset>
+
+<fieldset>Search for wines after a year
+    <form>
+        <label for="year_search">Year:</label>
+        <input type="number" name="year_search" id="year_search">
+        <input type="submit" id ="search">
+    </form>
+</fieldset>
+
+<fieldset>Add wine bottle to inventory
+    <form>
+        <label for="wine_name">Wine name:</label>
+        <input type="text" name="wine_name" id="wine_name"> <br>
+        <label for="price">Price:</label>
+        <input type="number" name="price" id="price"><br>
+        <label for="year">Year:</label>
+        <input type="number" name="year" id="year"><br>
+        <label for="winery_wine">Winery name:</label>
+        <input type="text" name="winery_wine" id="winery_wine"><br>
+        <label for="variety_wine">Variety name:</label>
+        <input type="text" name="variety_wine" id="variety_wine"><br>
+        <input type="submit" id="add wine" value="add wine">
+    </form>
+</fieldset>
+
+<fieldset>Add a region
+    <form>
+        <label for="region name">Region name:</label>
+        <input type="text" name="region name" id="region name"> <br>
+        <label for="country"> Country:</label>
+        <input type="text" name="country" id="country"> <br>
+        <label for="climate">Climate:</label>
+        <input type="text" name="climate" id="climate"> <br>
+        <label for="soil type">Soil type:</label>
+        <input type="text" name="soil type" id="soil type"> <br>
+        <input type="submit" id="add region" value="add region">
+    </form>
+</fieldset>
+
+<fieldset>Add a winery
+    <form>
+        <label for="winery">Winery name:</label>
+        <input type="text" name="winery" id="winery"> <br>
+        <label for="city"> City:</label>
+        <input type="text" name="city" id="city"> <br>
+        <label for="winery region">Region:</label>
+        <input type="text" name="winery region" id="winery region"> <br>
+        <input type="submit" id="add winery" value="add winery">
+    </form>
+</fieldset>
+
+<fieldset>Add a variety
+    <form>
+        <label for="variety">Variety name:</label>
+        <input type="text" name="variety" id="variety"> <br>
+        <input type="submit" id="add variety" value="add variety">
+    </form>
+</fieldset>
+
+<fieldset>Add a variety to a region
+    <form>
+        <label for="variety_rel">Variety name:</label>
+        <input type="text" name="variety_rel" id="variety_rel"> <br>
+        <label for="region_rel">Region name:</label>
+        <input type="text" name="region_rel" id="region_rel"> <br>
+        <input type="submit" id="add variety_region" value="add variety to a region">
+    </form>
+</fieldset>
+
+<br>
+<div id = "table wrapper"><table id="wine data"></table></div>
+
+<script src="/content.js"></script>
